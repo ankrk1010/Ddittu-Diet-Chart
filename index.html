@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Chart for Ddittu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            background-image: url("ddittu.jpg"); /* Ddittu की फोटो */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        h1 {
+            text-align: center;
+            color: #d62828;
+            margin: 20px 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            font-size: 24px;
+        }
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: rgba(255, 255, 255, 0.5);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+            font-size: 14px;
+        }
+        th {
+            background-color: #ff7f50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .note {
+            width: 90%;
+            margin: 20px auto;
+            background-color: rgba(230, 247, 255, 0.9);
+            padding: 15px;
+            border-left: 5px solid #0077b6;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: gray;
+            margin: 20px 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 5px;
+        }
+        .created-by {
+            font-size: 10px;
+            color: #555;
+        }
+
+        /* मोबाइल के लिए रिस्पॉन्सिव डिज़ाइन */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 18px;
+                margin: 10px 5px;
+            }
+            table {
+                width: 95%;
+                font-size: 12px;
+            }
+            th, td {
+                padding: 5px;
+                font-size: 11px;
+            }
+            .note {
+                font-size: 12px;
+                padding: 10px;
+            }
+            .footer {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Diet Chart For <span style="color: purple;">Ddittu</span> ❤</h1>
+
+    <table>
+        <tr>
+            <th>दिन / Day</th>
+            <th>सुबह का नाश्ता {Breakfast}</th>
+            <th>दोपहर का खाना {Lunch}</th>
+            <th>शाम का नाश्ता {Evening Snack}</th>
+            <th>रात का खाना {Dinner}</th>
+        </tr>
+        <tr>
+            <td>Day 1</td>
+            <td>भीगा चना (50g) + गुड़ (20g) {Soaked Chickpeas (50g) + Jaggery (20g)}</td>
+            <td>चुकंदर की सब्जी (100g) + दाल (1 कटोरी) + रोटी (2) {Beetroot Curry (100g) + Dal (1 bowl) + Roti (2)}</td>
+            <td>किशमिश (20g) {Raisins (20g)}</td>
+            <td>पालक की सब्जी (100g) + चावल (100g) {Spinach Curry (100g) + Rice (100g)}</td>
+        </tr>
+        <tr>
+            <td>Day 2</td>
+            <td>बादाम (5-6) + चाय {Almonds (5-6) + Tea}</td>
+            <td>हरी सब्जी (100g) + मूंग दाल (1 कटोरी) + चावल (100g) {Green Veggies (100g) + Moong Dal (1 bowl) + Rice (100g)}</td>
+            <td>केला (1) {Banana (1)}</td>
+            <td>चना दाल (1 कटोरी) + रोटी (2) {Chana Dal (1 bowl) + Roti (2)}</td>
+        </tr>
+        <tr>
+            <td>Day 3</td>
+            <td>मूंगफली (20g) + गुड़ (20g) {Peanuts (20g) + Jaggery (20g)}</td>
+            <td>लौकी की सब्जी (100g) + दाल (1 कटोरी) + रोटी (2) {Bottle Gourd Curry (100g) + Dal (1 bowl) + Roti (2)}</td>
+            <td>संतरा (1) {Orange (1)}</td>
+            <td>आलू की सब्जी (100g) + चावल (100g) {Potato Curry (100g) + Rice (100g)}</td>
+        </tr>
+        <tr>
+            <td>Day 4</td>
+            <td>खजूर (2-3) + दूध (1 गिलास) {Dates (2-3) + Milk (1 glass)}</td>
+            <td>पालक की सब्जी (100g) + अरहर दाल (1 कटोरी) + रोटी (2) {Spinach Curry (100g) + Toor Dal (1 bowl) + Roti (2)}</td>
+            <td>बादाम (5-6) {Almonds (5-6)}</td>
+            <td>मिक्स दाल (1 कटोरी) + चावल (100g) {Mixed Dal (1 bowl) + Rice (100g)}</td>
+        </tr>
+        <tr>
+            <td>Day 5</td>
+            <td>भीगा चना (50g) + चाय {Soaked Chickpeas (50g) + Tea}</td>
+            <td>भिंडी की सब्जी (100g) + दही (100g) + रोटी (2) {Okra Curry (100g) + Curd (100g) + Roti (2)}</td>
+            <td>गाजर (1) {Carrot (1)}</td>
+            <td>अरहर दाल (1 कटोरी) + चावल (100g) {Toor Dal (1 bowl) + Rice (100g)}</td>
+        </tr>
+        <tr>
+            <td>Day 6</td>
+            <td>मिक्स ड्राई फ्रूट्स (20g) + दूध (1 गिलास) {Mixed Dry Fruits (20g) + Milk (1 glass)}</td>
+            <td>चुकंदर की सब्जी (100g) + मसूर दाल (1 कटोरी) + रोटी (2) {Beetroot Curry (100g) + Masoor Dal (1 bowl) + Roti (2)}</td>
+            <td>सेब (1) {Apple (1)}</td>
+            <td>हरी सब्जी (100g) + चावल (100g) {Green Veggies (100g) + Rice (100g)}</td>
+        </tr>
+        <tr>
+            <td>Day 7</td>
+            <td>किशमिश (20g) + गुड़ (20g) {Raisins (20g) + Jaggery (20g)}</td>
+            <td>हरी सब्जी (100g) + मिक्स दाल (1 कटोरी) + रोटी (2) {Green Veggies (100g) + Mixed Dal (1 bowl) + Roti (2)}</td>
+            <td>केला (1) {Banana (1)}</td>
+            <td>चना दाल (1 कटोरी) + चावल (100g) {Chana Dal (1 bowl) + Rice (100g)}</td>
+        </tr>
+    </table>
+
+    <div class="note">
+        <b>महत्वपूर्ण नोट / Important Note:</b><br>
+        - आयरन के लिए चुकंदर, पालक, गुड़, और चना खाएं। {Eat beetroot, spinach, jaggery, and chickpeas for iron.}<br>
+        - संतरा या नींबू का रस आयरन को सोखने में मदद करता है। {Orange or lemon juice helps absorb iron.}<br>
+        - रोज 2-3 लीटर पानी पिएं और थोड़ा टहलें। {Drink 2-3 liters of water daily and take a short walk.}<br>
+        - सस्ते प्रोटीन जैसे दाल और दही को शामिल करें। {Include affordable proteins like dal and curd.}<br>
+        - हर सुबह आधे घंटे व्यायाम करें। {Exercise for half an hour every morning.}<br>
+    </div>
+
+    <div class="footer">
+        <span class="created-by">Created by Ankit Yadav</span>
+    </div>
+</body>
+</html>
